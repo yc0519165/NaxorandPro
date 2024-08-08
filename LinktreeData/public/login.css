@@ -1,0 +1,108 @@
+.main{
+  padding: 48px 48px 12px;
+}
+.container-2{
+  padding: 96px 24px 24px;
+}
+.image{
+  width: 100vw -48px;
+  height: 100vh;
+}
+/* ========== Main section ==========*/
+
+.container{
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  font-family: Inter, Helvetica, Arial, "system-ui", apple-system;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.logo{
+  position: absolute;
+  height: 1.5rem;
+  left: 3rem;
+  top: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+
+}
+.logo-name{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.logo-name sup{
+  font-size: 1.5rem;
+  color: green;
+}
+.main-section {
+  padding: 3rem 3rem 0.75rem;
+  height: 100%;
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+.section-2{
+  padding:6rem 1.5rem 1.5rem ;
+  display: flex;
+  flex-direction: column;
+}
+.section-3{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.text-combo{
+  margin: 0 0 3rem 0;
+  text-align: center;
+}
+.text-combo h1{
+  margin: 0 0 1rem 0;
+  font-size: 2.8rem;
+  min-height: 3rem;
+}
+.main-text{
+  margin: 0 0 1rem 0;
+  min-height: 3rem;
+
+}
+
+.email-text{
+  background-color:#F6F7F5;
+  height: 3rem;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+.input-con{
+  justify-content: space-around;
+  height: 8rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.btns{
+  width: 100%;
+  border-radius: 25px;
+  margin-top:2rem;
+  height: 3rem;
+  background-color:rgb(216, 187, 243);
+  border: none;
+}
+.font{
+  font-size: 1rem;
+}
+.coockis{
+  display: flex;
+  height: auto;
+  margin-top: 2em;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
